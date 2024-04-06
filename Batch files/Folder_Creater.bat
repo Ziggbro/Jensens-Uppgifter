@@ -1,10 +1,10 @@
 
 TITLE - ProvUpgifft
 
-msg "%username%" This is a test!
+msg "%username%" Filerna har nu skapats på ditt skrivbord!
 
 
-@echo off
+
 cd %USERPROFILE%\Desktop
 md WebSite
 cd WebSite
