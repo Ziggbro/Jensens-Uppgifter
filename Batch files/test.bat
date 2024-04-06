@@ -1,21 +1,20 @@
 
 TITLE - ProvUpgifft
 
-md C:\Users\Default\Desktop\ Mapp
-
-cd C:\Users\Default\Desktop\Mapp
-
- echo "hello">Mapp\new.html
+msg "%username%" This is a test!
 
 
-
-"@echo off
+@echo off
 cd %USERPROFILE%\Desktop
-md MyFolder
-cd MyFolder
-md Subfolder1
-md Subfolder2
-md Subfolder3
-echo Hello, this is a file. > Subfolder1\File1.txt
-echo Hello, this is a file. > Subfolder2\File2.txt
-echo Hello, this is a file. > Subfolder3\File3.txt"
+md WebSite
+cd WebSite
+md Application1
+md Application2
+md Application3
+echo Hello, this is a file. > Application1\st.txt
+echo Hello, this is a file. > Application1\mt.docx
+echo Hello, this is a file. > Application3\Page1.htm
+echo Hello, this is a file. > Application3\Page2.htm
+cd Application3
+md Media
+
