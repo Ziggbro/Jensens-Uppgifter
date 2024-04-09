@@ -1,20 +1,22 @@
 
 TITLE - ProvUpgifft
-
-msg "%username%" Filerna har nu skapats på ditt skrivbord!
-
-
+echo Vill du skapa mappar och filer på din Desktop?
+pause
 
 cd %USERPROFILE%\Desktop
-md WebSite
-cd WebSite
-md Application1
-md Application2
-md Application3
-echo Hello, this is a file. > Application1\st.txt
-echo Hello, this is a file. > Application1\mt.docx
-echo Hello, this is a file. > Application3\Page1.htm
-echo Hello, this is a file. > Application3\Page2.htm
-cd Application3
-md Media
+md MyFiles
+cd MyFiles
+md Images
+md Documents
+"md Application3"
+"echo Hello, this is a file. > Application1\st.txt
+"echo Hello, this is a file. > Application1\mt.docx
+"echo Hello, this is a file. > Application3\Page1.htm
+echo Hello, this is a file. > Documents\Messeges.txt
+"cd 
+"md Media
+echo Done
 
+pause 
+
+msg "%username%" Filerna har nu skapats på ditt skrivbord!
