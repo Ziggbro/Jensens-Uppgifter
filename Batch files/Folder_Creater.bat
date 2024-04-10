@@ -2,7 +2,7 @@
 TITLE - ProvUpgifft
 echo Vill du skapa mappar och filer på din Desktop?
 pause
-
+"xcopy koipierar allt i mapparna"
 cd %USERPROFILE%\Desktop
 md MyFiles
 cd MyFiles
@@ -13,7 +13,7 @@ md Documents
 "echo Hello, this is a file. > Application1\mt.docx
 "echo Hello, this is a file. > Application3\Page1.htm
 echo Hello, this is a file. > Documents\Messeges.txt
-"cd 
+"cd     
 "md Media
 echo Done
 
