@@ -19,4 +19,4 @@ echo Done
 
 pause 
 
-msg "%username%" Filerna har nu skapats på ditt skrivbord!
+msg "%username%" Filerna har nu skapats på ditt skrivbord! 
