@@ -1,6 +1,6 @@
 
 namn = input ("Skrin ditt namn: ")
-print("Hej " namn)
+print("Hej ", namn)
 
 ålder = int(input("skriv din ålder:"))
 print("Om fem år är du :", ålder + 5, "år.")
