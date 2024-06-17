@@ -10,7 +10,7 @@ måste innehålla
 import random
 
 
-n=1
+
 val = ("sten","sax","påse")
 spelare = None
 dator = random.choice(val)
@@ -26,3 +26,15 @@ else :
     
 print("spelare valde :", spelare)
 print("Datorn valde:", dator)
+
+if spelare == spelare:
+    print("Ovavgjort")
+elif spelare == "sax" and dator == "påse":
+    print("du vinner")
+elif spelare == "påse" and dator == "sten":
+    print("du vinner")
+elif spelare == "sten" and dator == "sax":
+    print("du vinner")
+else:
+    print("Du förlorade")
+    
