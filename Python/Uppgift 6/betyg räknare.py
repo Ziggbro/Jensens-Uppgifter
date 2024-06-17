@@ -18,3 +18,6 @@ elif 90 <= poäng <= 100:
     print("Ditt betyg blir: A")
 else:
     print("Ange ett tal mellan 0 och 100")
+
+
+
