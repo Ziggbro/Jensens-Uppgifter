@@ -21,5 +21,8 @@ print("Let's play a game")
 #wichgame = int(print("1:   sten saxs påse \n 2: Tärning \n 3: Something else"))
 while spelare not in val:
     spelare = input("välj sten sax eller påse")
+else :
+    print("välj ett riktigt val")
     
-    
+print("spelare valde :", spelare)
+print("Datorn valde:", dator)
