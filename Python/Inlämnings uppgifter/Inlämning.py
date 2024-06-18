@@ -7,13 +7,14 @@ måste innehålla
 -If-satser
 -Functions (Alernativ)
 """
+#importerar random bibloteket
 import random
-
+#variabler som är bra att ha
 options = ("sten", "sax", "påse")
 running = True
-
+#main while loopen
 while running:
-
+    #variabler som sparar spelarens val
     player = None
     computer = random.choice(options)
 
@@ -22,7 +23,7 @@ while running:
 
     print(f"Spelare: {player}")
     print(f"Datorn: {computer}")
-
+    #vinst räkningen
     if player == computer:
         print("Det blev oavgjort!")
     elif player == "sten" and computer == "sax":
@@ -33,9 +34,9 @@ while running:
         print("Du winner!")
     else:
         print("Du förlorade!")
-
+    #stannar loopen så den inte körs för evigt
     if not input("Vill du spela igen? (j/n): ").lower() == "j":
         running = False
-
+#goodbye medelande
 print("Thanks for playing!")
 
