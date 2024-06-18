@@ -9,31 +9,33 @@ måste innehålla
 """
 import random
 
+options = ("rock", "paper", "scissors")
+running = True
 
+while running:
 
-val = ("sten","sax","påse")
-spelare = None
-dator = random.choice(val)
+    player = None
+    computer = random.choice(options)
 
+    while player not in options:
+        player = input("Enter a choice (rock, paper, scissors): ")
 
-print("Let's play a game")
-#print("Please pick wich one.")
-#wichgame = int(print("1:   sten saxs påse \n 2: Tärning \n 3: Something else"))
-while spelare not in val:
-    spelare = input("välj sten sax eller påse")
-else :
-    print("välj ett riktigt val")
-    
-print("spelare valde :", spelare)
-print("Datorn valde:", dator)
+    print(f"Player: {player}")
+    print(f"Computer: {computer}")
 
-if spelare == dator:
-    print("Ovavgjort")
-elif spelare == "sax" and dator == "påse":
-    print("du vinner")
-elif spelare == "påse" and dator == "sten":
-    print("du vinner")
-elif spelare == "sten" and dator == "sax":
-    print("du vinner")
-else:
-    print("Du förlorade")
+    if player == computer:
+        print("It's a tie!")
+    elif player == "rock" and computer == "scissors":
+        print("You win!")
+    elif player == "paper" and computer == "rock":
+        print("You win!")
+    elif player == "scissors" and computer == "paper":
+        print("You win!")
+    else:
+        print("You lose!")
+
+    if not input("Play again? (y/n): ").lower() == "y":
+        running = False
+
+print("Thanks for playing!")
+

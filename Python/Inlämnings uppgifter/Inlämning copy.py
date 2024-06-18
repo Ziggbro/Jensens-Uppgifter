@@ -12,7 +12,7 @@ import random
 
 
 #variabler kanske
-happiness = true
+happiness = True
 val = ("sten","sax","påse")
 #spelare = None
 #dator = random.choice(val)
@@ -22,13 +22,14 @@ print("Let's play a game")
 #print("Please pick wich one.")
 #wichgame = int(print("1:   sten saxs påse \n 2: Tärning \n 3: Something else"))
 #hopefully invokes first choice to start another function
+"""""
 def gameStart():
     if input("1"):
         print("du har valt sten sax påse")
         tresome()
     else:
         print("game machine broken, pick another")
-        
+"""""  
 #sten sax påse spel typ
 def tresome():
     while happiness:
@@ -53,5 +54,4 @@ def tresome():
         else:
             print("Du förlorade")
     
-    if not input("Play again? (y/n): ").lower() == "y":
-        happiness = False
+    
