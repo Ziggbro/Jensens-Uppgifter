@@ -20,8 +20,8 @@ while running:
     while player not in options:
         player = input("Välj sten sax eller påse:): ")
 
-    print(f"Player: {player}")
-    print(f"Computer: {computer}")
+    print(f"Spelare: {player}")
+    print(f"Datorn: {computer}")
 
     if player == computer:
         print("Det blev oavgjort!")
