@@ -27,7 +27,7 @@ else :
 print("spelare valde :", spelare)
 print("Datorn valde:", dator)
 
-if spelare == spelare:
+if spelare == dator:
     print("Ovavgjort")
 elif spelare == "sax" and dator == "påse":
     print("du vinner")
@@ -37,4 +37,3 @@ elif spelare == "sten" and dator == "sax":
     print("du vinner")
 else:
     print("Du förlorade")
-    
