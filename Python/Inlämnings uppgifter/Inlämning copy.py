@@ -27,6 +27,7 @@ wichgame = input("1:    sten saxs påse \n 2:    Tärning \n 3:   Something else
 if wichgame("1"):
     print("du har valt sten sax påse")
     tresome()
+    
 else:
     print("game machine broken, pick another")
   
