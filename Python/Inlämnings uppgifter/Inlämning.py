@@ -17,7 +17,7 @@ while running:
     #variabler som sparar spelarens val
     player = None
     computer = random.choice(options)
-
+    #kollar att du valt ett av dom tillgengliga valen. så du inte fuskar.
     while player not in options:
         player = input("Välj sten sax eller påse:): ")
 
