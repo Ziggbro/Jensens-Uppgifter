@@ -5,3 +5,5 @@ def my_function(food):
         print(x)
     return x
 my_function(["bananer","äpplen","mango"])
+
+
