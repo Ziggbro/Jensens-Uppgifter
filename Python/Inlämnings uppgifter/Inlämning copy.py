@@ -24,7 +24,7 @@ wichgame = input("1:    sten saxs påse \n 2:    Tärning \n 3:   Something else
 #hopefully invokes first choice to start another function
 
 
-if wichgame("1"):
+if wichgame == "1":
     print("du har valt sten sax påse")
     rock()
     
