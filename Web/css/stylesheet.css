@@ -20,11 +20,18 @@
     border: 3px solid blue;
 }
 .div2{
+    padding: 10px;
+    border: 3px solid green;
     
 }
 .div3{
+    float: left;
+    padding: 10px;
+    border: 3px solid black;
     
 }
 .div4{
-    
+    padding: 10px;
+    border: 3px solid yellow;
+    clear: left;
 }
