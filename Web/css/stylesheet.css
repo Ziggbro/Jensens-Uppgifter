@@ -35,3 +35,59 @@
     border: 3px solid yellow;
     clear: left;
 }
+
+/* test */
+header{
+    background-color: aquamarine;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    overflow: hidden;
+    background-color: black;
+
+}
+nav ul{
+    margin: none;
+    padding: none;
+    text-align: center;
+
+}
+nav ul li{
+    display: inline;
+
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+nav ul li a{
+    color: white;
+    padding: 2px 10px;
+    display: inline-block;
+}
+aside{
+    border: 3px solid gray;
+    padding: 20px;
+    margin: 10px;
+}
+section{
+    flex: auto;
+    padding: 20px;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+article{
+    border: 3px solid gray;
+    padding: 20px;
+
+}
+footer{
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
