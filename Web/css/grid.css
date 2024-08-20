@@ -18,8 +18,19 @@ div{
     border: 2px solid darkgray;
     padding: 20px;
 }
+.div1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: yellow;
+
+}
 
 
+.div8{
+    grid-column: 1 / span 3;
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
 
-
+}
 
