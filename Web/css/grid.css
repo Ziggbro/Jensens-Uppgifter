@@ -1,10 +1,22 @@
-container{
+.container{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-columns: 50px 150px;
-
+    grid-template-columns: auto auto auto auto auto;
+    /* grid-template-columns: 60px 60px; */
+    background-color: aqua;
+    border: 12px solid gray;
+    gap: 25px 50px;
+    /* column-gap: 50px; */
+    padding: 10px;
+    
 }
-
+@media screen {
+    
+}
+div{
+    background-color: white;
+    border: 2px solid darkgray;
+    padding: 20px;
+}
 
 
 
