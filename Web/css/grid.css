@@ -9,10 +9,32 @@
     padding: 10px;
     
 }
+.container2{
+    display: grid;
+    grid-template-columns: 66px 66px 66px auto;
+    gap: 15px;
+}
 /* @media screen { 
     
 }     */
+     
+.item{
+    background-color: greenyellow;
+    border: 2px solid darkgray;
+    padding: 20px;
 
+}
+.item1{
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+    background-color: aqua;
+
+}
+.item3{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-row-start: 3 span ;
+}
 div{
     background-color: white;
     border: 2px solid darkgray;
@@ -24,8 +46,6 @@ div{
     background-color: yellow;
 
 }
-
-
 .div8{
     grid-column: 1 / span 3;
     background-color: blue;
@@ -33,4 +53,3 @@ div{
     padding: 20px;
 
 }
-
