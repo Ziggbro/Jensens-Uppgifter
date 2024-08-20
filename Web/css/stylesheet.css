@@ -104,8 +104,15 @@ footer{
 
 tr{
     color: aqua;
+    border: 5px solid gray;
 }
 th{
-   boarder : 2px;
+   border : 2px solid black
+}
+table{
+    background-color: green;
     
+}
+tb{
+    border: 2px;
 }
