@@ -23,21 +23,8 @@ body {
     header {
     grid-area: header;
     background-color: #91C8FF;
-    float: left;
     
     }
-    /* section1 {
-    grid-area: sect1;
-    background-color: #B3D8FD;
-    }
-    section2 {
-    grid-area: sect2;
-    background-color: #5E86AF;
-    }
-    section3 {
-    grid-area: sect3;
-    background-color: #6D9FD2;
-    } */
     main {
     grid-area: main;
     background-color: #7DA9D5;
@@ -81,11 +68,19 @@ body {
 form{
     padding: 10px;    
     align-items: center;
+    background-color: rgba(10, 46, 58, 0.291);
+    margin: auto;
 }
-
+legend{
+    margin: auto;
+}
 label{
-    align-items: center;
-    padding: 10%;
+    margin: auto;
+}
+fieldset{
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 5%;
 }
 
 
@@ -96,10 +91,9 @@ label{
     margin: 0;
     display: grid;
     grid-template-columns: auto 25% 25% 25%;
-    grid-template-rows: 20% 30% auto 20%;
+    grid-template-rows: 10% auto 10%;
     grid-template-areas:
     "header header header header"
-    "sidebar sect1 sect2 sect3"
     "sidebar main main main"
     "footer footer footer footer";
     }
