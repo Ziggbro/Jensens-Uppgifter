@@ -33,8 +33,10 @@ body {
     footer {
     grid-area: footer;
     background-color: #588EC3;
+    padding: 1%;
     /* bottom: 0; */
     /* margin-top: 12%; */
+    overflow: hidden;
 
     }
    
