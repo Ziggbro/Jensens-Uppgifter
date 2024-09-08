@@ -5,7 +5,7 @@ aritmetiska operationerna: : addition, subtraktion, multiplikation och division.
 
 print("Miniräknar application")
 print("")
-
+#alla modifiers
 def adda(x,y):
     return x + y
 def minus(x,y):
