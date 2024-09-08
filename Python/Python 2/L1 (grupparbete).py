@@ -16,10 +16,11 @@ def dela(x,y):
     return x/y
 def multi(x,y):
     return x * y
-
+#main while loop
 while True:
     print("Knappa in dina nummer så börjar vi!")
     mod = input("Vad ska vi räkna idag? \n 1: + \n 2: - \n 3: * \n 4: / \n")
+    #borde gå att fixa upp den här if röran med ett "catch" statment men är lite lat
     if mod in ("1","2","3","4"):
         num1 = int(input("Välj första nummret"))
         num2 = int(input("Välj andrfa nummret"))
@@ -31,7 +32,7 @@ while True:
         print(num1, "*", num2,"=", dela(num1,num2))
     elif mod == "4":
         print(num1, "/", num2, "=", multi(num1,num2))
-
+#bryter loopen om du svarar N, annar fortjetter den en gång till
     fortjäta = input("Räkna mer? Y / N")
     if fortjäta.upper() == "N":
         break

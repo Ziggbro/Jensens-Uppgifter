@@ -1,7 +1,7 @@
 
 
 
-for n in range (1, 16):
+for n in range (1, 5):
     print("hek")
 
 for n in range (1, 21):

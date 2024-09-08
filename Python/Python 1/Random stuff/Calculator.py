@@ -10,9 +10,9 @@ if operator == "+":
 elif operator == "-":
     result = num1 - num2
 elif operator == "*":
-    result num1 * num2
+    result = num1 * num2
 elif operator == "/":
-    result num1 / num2
+    result = num1 / num2
 else:
     print("error")
 
