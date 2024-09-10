@@ -41,8 +41,8 @@ class Car():
     def drive(self):
         return f"Bil {self.brand}, {self.model},{self.year},{self.speed}"
 
-bil1 = Car("Toyota","Corolla","2022","0.0")
-bil2 = Car("Honda","Civic","2021","0.0")
+bil1 = Car("Toyota","Corolla","2022","0.0\n")
+bil2 = Car("Honda","Civic","2021","0.0\n")
 
 print(bil1.drive(),bil2.drive())
 
