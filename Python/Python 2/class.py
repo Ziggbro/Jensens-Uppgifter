@@ -31,5 +31,18 @@
 
 
 
+class Car():
+    def __init__(self, brand, model, year, speed):
+        self.brand = brand
+        self.model = model
+        self.year = year
+        self.speed = speed
 
+    def drive(self):
+        return f"Bil {self.brand}, {self.model},{self.year},{self.speed}"
+
+bil1 = Car("Toyota","Corolla","2022","0.0")
+bil2 = Car("Honda","Civic","2021","0.0")
+
+print(bil1.drive(),bil2.drive())
 
