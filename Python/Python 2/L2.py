@@ -14,11 +14,29 @@
 # fil.close()
 import os
 
-fil = open("Python\Python 2\python.txt", "a")
-fil.write(" I like webdev")
+# fil = open("Python\Python 2\python.txt", "a")
+# fil.write(" I like webdev")
+# fil.close()
+
+# fil = open("python.txt ","r")
+# print(fil.read())
+# fil.close()
+
+# fil = open("Python\Python 2\listname.txt","a")
+# fil.write("namn1")
+# fil.write("name2")
+# fil.write("\n name3")
+# fil.close()
+
+fil = open("Python\Python 2\listname.txt","r")
+print(fil.read())
+
+
+with open("Python\Python 2\listname.txt") as file:
+    for line in file:
+        line = line.strip()
+        print("hej, ", line, "trevlig helg")
+
 fil.close()
 
-fil = open("python.txt ","r")
-print(fil.read())
-fil.close()
 
