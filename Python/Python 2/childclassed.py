@@ -13,7 +13,7 @@ class Student(Person):
         self.ålder = ålder
 
     def printname(self):
-        print(f"Namn: {self.firstname} {self.lastname}, \n Ålder: {self.ålder}")
+        print(f"Namn: {self.firstname} {self.lastname} \nÅlder: {self.ålder}")
 
 
 x = Student("Mike", "Olsen", 35)
