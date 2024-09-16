@@ -17,7 +17,7 @@ class Player():
         self.map = map
     
     def move_up(self):
-        if self.y < slef.map.y_max:
+        if self.y < self.map.y_max:
             self.y += 1
 
     def move_down(self):
@@ -39,7 +39,7 @@ class Player():
             print(self.name, "hittade skatten")
 
         else:
-            print(self.name "kunde inte hitta skatten")        
+            print(self.name, "kunde inte hitta skatten")        
         
 
 map_object = Map(5,4,2,1)
