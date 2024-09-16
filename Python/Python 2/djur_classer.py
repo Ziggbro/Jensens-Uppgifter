@@ -5,7 +5,7 @@ class Djur():
         self.name = name
         self.ålder = ålder
     
-    def äta(self)
+    def äta(self):
         print(f"{self.name} äter")
 
     def sova(self):
@@ -22,5 +22,9 @@ class Hund(Djur):
     def skälla(self):
         print(f"{self.name} skäller")
     def göra_ljud(self):
-        
+        self.skälla()
+
+    def visa_ras(self):
+        print(f"{self.name}, är av rasen {self.ras}.")
+
 
