@@ -1,6 +1,4 @@
-
-
-class Bil:
+class Fordon:
     def __init__(self,färg,märke,form,år,bränsle):
         self.self = self
         self.färg = färg
@@ -8,13 +6,9 @@ class Bil:
         self.form = form
         self.år = år
         self.bränsle = bränsle
-    
-    def motor(self):
-        print(f"den har en , {self.v8}, motor")
-    
 
-
-färg = input("vilken färg har den?")
-
-
-print(färg)
+        
+class Bil(Fordon):
+    def __init__(self, färg, märke, form, år, bränsle):
+        super().__init__(färg, märke, form, år, bränsle)
+        return bil.visa_info()
