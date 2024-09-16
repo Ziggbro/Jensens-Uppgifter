@@ -7,7 +7,12 @@ var = turtle.Turtle()
 #     var.right(40)
 
 
-var.circle(100)
+# var.circle(100)
+
+for _ in range(36):
+    var.circle(50)
+    var.right(10)
+
 
 turtle.done()
 
