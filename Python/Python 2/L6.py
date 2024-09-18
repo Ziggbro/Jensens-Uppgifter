@@ -42,10 +42,14 @@ class Player():
             print(self.name, "kunde inte hitta skatten")        
         
 
+#ouside class
+
+#skapa en karta och två spelare utanför klassdefinitionerna
+
 map_object = Map(5,4,2,1)
 player_1 = Player('isak', map_object)
 player_2 = Player('marisa', map_object)
 
-
+#flytta spelarna och skriv ut deras positioner
 player_1.move_up()
 player_2.move_up()
